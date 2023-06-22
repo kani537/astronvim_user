@@ -1,0 +1,19 @@
+{
+  "graph": {
+    "prefix": ["graph"],
+    "body": ["using graph = std::vector<std::vector<int>>;"],
+    "description": "graph template"
+  },
+  "chmax": {
+    "prefix": ["chmax"],
+    "body": [
+      "template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return true; } return false; }"
+    ]
+  },
+  "chmin": {
+    "prefix": ["chmin"],
+    "body": [
+      "template<class T> inline bool chmin(T& a, T b) { if (a > b) { a = b; return true; } return false; }"
+    ]
+  }
+}
